@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-hands-on-2</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
     <section>
-    <div class="parent">
-    <div class="child1 child"><p>Welcome to Dhaba here</p><p class="center">you get quality food</p></div>
-    <div class="child2 child">Home Menu review contacts us</div>
-    <div class="child3 child">
+    <div class="flex">
+    <div class="box1 child"><p>Welcome to Dhaba here</p><p class="center">you get quality food</p></div>
+    <div class="box2 child">Home Menu review contacts us</div>
+    <div class="box3 child">
         <p>Email:Store@gmail.com</p>
         <p>If you find any complain</p>
         <p> Contact on-94566*****</p>
@@ -20,15 +20,17 @@
     </div>
 </section>
 <section>
-    <div class="parent1">
-        <div class="child4">
-            <p class="center1">EXCITING OFFERS</p><br><hr><br>
-            <p >**GET OUR SPECIAL THALI FOR <br>ONLY RS-100 ONLY ON MONDAY**</p><br><hr><br>
-            <p class="center1">PLZ RATE US OUT OF 5</p>
+    <div class="container">
+        <div class="circle">
+            <div class="content">
+            <p>EXCITING OFFERS</p><br><hr><br>
+            <p>**GET OUR SPECIAL THALI FOR <br>ONLY RS-100 ONLY ON MONDAY**</p><br><hr><br>
+            <p>PLZ RATE US OUT OF 5</p>
+        </div>
         </div>
         <div>
             <form action="" method="get">
-                <h1 class="main">PLEASE REGISTER HERE</h1>
+                <h1 class="formhead">PLEASE REGISTER HERE</h1>
                 <hr>
                 <br><br>
                 <label for="name">First name:</label><br>
@@ -46,20 +48,21 @@
                 <label for="health">Do you have cough or cold?</label><br>
                 <input type="checkbox" id="health" name="health"><br><br>
                 <label for="click">click here</label><br>
-                <input type="submit" value="Submit here" id="click" name="submit"><br><br>
+                <input type="submit" class="button" value="Submit here" id="click" name="submit"><br><br>
                 <label for="reset">Reset</label><br>
-                <input type="reset" value="Reset" id="reset" name="reset"><br><br>
+                <input type="reset" value="Reset" class="button" id="reset" name="reset"><br><br>
             </form>
         </div>
         </div>
 </section>
 <br>
 <br>
-<center><h1 class="child menu">MENU</h1></center><br><hr>
+<section>
+<center><h1 class="child menuheading">MENU</h1></center><br><hr>
 <br>
-    <div class="parent3">
-    <div class="child5">
-        <h1 class="headings">Starters</h1>
+    <div class="menu">
+    <div class="catagories">
+        <h1 class="catagoriesheading">Starters</h1>
         <hr>
         <ul><br>
             <li>Paneer Tikka</li>
@@ -71,8 +74,8 @@
             <li>Fried Rice</li>
         </ul>
     </div>
-    <div class="child5">
-        <h1 class="headings">South Indian</h1>
+    <div class="catagories">
+        <h1 class="catagoriesheading">South Indian</h1>
         <hr>
         <ul><br>
             <li>Masala Dosa</li>
@@ -84,8 +87,8 @@
             <li>Tomato Uttapam</li>
         </ul>
     </div>
-    <div class="child5">
-        <h1 class="headings">Indian Kitchen</h1>
+    <div class="catagories">
+        <h1 class="catagoriesheading">Indian Kitchen</h1>
         <hr>
         <ul><br>
             <li>Shahi Paneer</li>
@@ -98,9 +101,9 @@
         </ul>
     </div>
     </div>
-    <div class="parent3">
-        <div class="child5">
-            <h1 class="headings">Rice & Salad</h1>
+    <div class="menu">
+        <div class="catagories">
+            <h1 class="catagoriesheading">Rice & Salad</h1>
             <hr>
             <ul><br>
                 <li>Plain rice</li>
@@ -112,8 +115,8 @@
                 <li>Masala Salad</li>
             </ul>
         </div>
-        <div class="child5">
-            <h1 class="headings">Tandoori Bread</h1>
+        <div class="catagories">
+            <h1 class="catagoriesheading">Tandoori Bread</h1>
             <hr>
             <ul><br>
                 <li>Butter Roti</li>
@@ -125,8 +128,8 @@
                 <li>Stuff Parantha</li>
             </ul>
         </div>
-        <div class="child6">
-            <h1 class="headings">Beverages and Other</h1>
+        <div class="last-item">
+            <h1 class="catagoriesheading">Beverages and Other</h1>
             <hr>
             <ul><br>
                 <li>Cold Coffee</li>
@@ -139,7 +142,6 @@
             </ul>
         </div>
         </div>
+    </section>
 </body>
 </html>
-
-

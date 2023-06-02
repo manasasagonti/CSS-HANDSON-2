@@ -5,11 +5,11 @@
 .body{
     border: 10px groove greenyellow;
     background-image: url("./blue-pink-halftone-background_53876-99004.avif");
-    height: 2050px;
+    height: 2000px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.parent{
+.flex{
     display: flex;
     width: 99%;
     margin: 20px;
@@ -24,7 +24,7 @@
     font-weight:bold;
     font-style: italic;
 }
-.child1{
+.box1{
     width: 28%;
     line-height: 40px;
     padding: 26px 30px 30px 20px;
@@ -33,14 +33,14 @@
 .center{
     padding-left:23px;
 }
-.child2{
+.box2{
     width: 30%;
     margin-left:-244px;
     margin-top: 12px;
     padding: 35px 0px 0px 120px;
     height: 50px;
 }
-.child3{
+.box3{
     width: 28%;
     margin-top: -5px;
     margin-left: 128px;
@@ -51,26 +51,26 @@
     text-align: center;
     height: 154px;
 }
-.parent1{
+.container{
     display: flex;
     width: 100%;
 }
-.child4{
-    background-color: lightseagreen;
+.circle{
+    background-color: teal;
     border: 8px solid grey;
-    width:26%;
-    height: 200px;
-    padding: 80px 10px 140px 20px ;
-    font-size: 24px;
-    font-style: italic;
-    font-weight:bold;
+    width:29%;
+    height: 420px;
     border-radius: 50%;
     margin-left: 80px;
-    margin-top: 280px;
-    text-decoration: underline;
+    margin-top: 220px;
 }
-.center1{
+.content{
+    font-style: italic;
+    font-weight:bold;
     text-align: center;
+    margin-top: 80px;
+    font-size: 24px;
+    text-decoration: underline;
 }
 form{
     font-size: 20px;
@@ -80,42 +80,43 @@ form{
     border: 5px dashed red;
     color:rgb(233, 116, 116);
     margin-left: 165px;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: aliceblue;
 }
-.child menu{
-    padding: 20px 15px ;
+.formhead{
+    padding: 15px;
 }
-::placeholder,input{
+form ::placeholder,input{
     text-align: center;
 }
 form input[type="date"]{
-    width: 165.6px;
+    width: 36%;
 }
-form input[type="submit"],[type="reset"]{
-    padding: 3px;
+.button{
+    padding: 2px;
+}
+.menuheading{
+    width: 32%;
+    border-radius: 35px;
+    padding: 20px 15px ;
 }
 .menu{
-    width: 31%;
-    border-radius: 35px;
-}
-.parent3{
     display: flex;
     justify-content: space-around;
     padding:40px ;
 }
-.child5{
+.catagories{
     width: 27%;
     height: 260px;
-    border: 3.5px solid green;
-    border-radius: 35px;
+    border: 3px solid green;
+    border-radius: 30px;
     padding-bottom: 30px;
     background-color: aqua;
 }
-.headings{
+.catagoriesheading{
     text-align: center;
     font-size: 42px;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px;
     color: rgb(10, 10, 151);
 }
 li{
@@ -124,13 +125,11 @@ li{
     font-size: 20px;
     color: rgb(10, 10, 151);
 }
-.child6{
+.last-item{
     width: 27%;
-    height: 300px;
-    border: 3.5px solid green;
+    height: 310px;
+    border: 3px solid green;
     border-radius: 35px;
     padding-bottom: 30px;
     background-color: aqua;
 }
-
-
